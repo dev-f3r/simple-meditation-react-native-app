@@ -1,5 +1,11 @@
 import { Image, StyleSheet, Platform, View, Text } from 'react-native';
 
+import { NativeWindStyleSheet } from "nativewind";
+
+NativeWindStyleSheet.setOutput({
+    default: "native",
+});
+
 export default function HomeScreen() {
     return (
         <View className="flex-1 justify-center items-center">
